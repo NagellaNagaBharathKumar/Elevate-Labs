@@ -1,0 +1,65 @@
+# Nmap 7.97 scan initiated Mon Aug 4 11:23:08 2025 as: nmap -sS -oN scan_results.txt 192.168.1.0/24
+
+Nmap scan report for 192.168.1.1
+Host is up (0.038s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT    STATE    SERVICE
+23/tcp  filtered telnet
+53/tcp  open     domain
+80/tcp  open     http
+443/tcp open     https
+MAC Address: B8:DD:71:B6:37:3E (zte)
+
+Nmap scan report for 192.168.1.2
+Host is up (0.017s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT    STATE SERVICE
+80/tcp  open  http
+554/tcp open  rtsp
+MAC Address: 14:07:08:91:F8:8B (CP Plus Gmbh & KG)
+
+Nmap scan report for 192.168.1.17
+Host is up (0.023s latency).
+All 1000 scanned ports on 192.168.1.17 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 96:4C:BD:E4:18:38 (Unknown)
+
+Nmap scan report for 192.168.1.19
+Host is up (0.025s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+MAC Address: B4:8C:9D:E6:FB:0B (AzureWave Technology)
+
+Nmap scan report for 192.168.1.26
+Host is up (0.22s latency).
+All 1000 scanned ports on 192.168.1.26 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: B4:8C:9D:E6:FB:0B (AzureWave Technology)
+
+Nmap scan report for 192.168.1.29
+Host is up (0.043s latency).
+All 1000 scanned ports on 192.168.1.29 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 22:E3:70:E1:2B:10 (Unknown)
+
+Nmap scan report for 192.168.1.52
+Host is up (0.044s latency).
+All 1000 scanned ports on 192.168.1.52 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: AA:38:A5:81:73:AF (Unknown)
+
+Nmap scan report for 192.168.1.43
+Host is up (0.0013s latency).
+Not shown: 992 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+902/tcp  open  iss-realsecure
+912/tcp  open  apex-mesh
+2869/tcp open  icslap
+3306/tcp open  mysql
+7070/tcp open  realserver
+
+# Nmap done at Mon Aug 4 11:26:17 2025 -- 256 IP addresses (8 hosts up) scanned in 188.40 seconds
